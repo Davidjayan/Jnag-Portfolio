@@ -1,0 +1,196 @@
+.App-Body{
+ display: block;
+ background-color: white;
+ animation-name: pageload;
+ animation-duration: 1s;
+ animation-timing-function: ease-in-out;
+ scrollbar-color: #003333 blue;
+}
+
+.background{
+  background-color: #7fcfd6;
+  overflow-x: hidden;
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width:100%;
+}
+.background .box1{
+  z-index: -1;
+  position: absolute;
+  left: 10%;
+  top:20%;
+  border-radius: 10px;
+  background-color:#7fcfd6;
+  animation-name:rotation1;
+  animation-duration:1s;
+  animation-iteration-count:infinite;
+  width:100px;
+  height: 100px;
+  box-shadow: 0px 0px 5px #fff;
+  
+}
+.background .box2{
+  z-index: -1;
+  position: absolute;
+  left: 20%;
+  top:40%;
+  border-radius: 10px;
+  background-color:#7fcfd6;
+  animation-name:rotation2;
+  animation-duration:2s;
+  animation-iteration-count:infinite;
+  width:200px;
+  height: 200px;
+  box-shadow: 0px 0px 5px #fff;
+ 
+}
+.background .box3{
+  z-index: -1;
+  position: absolute;
+  left: 50%;
+  top:30%;
+  border-radius: 10px;
+  background-color:#7fcfd6;
+  animation-name:rotation3;
+  animation-duration:1s;
+  animation-iteration-count:infinite;
+  width:70px;
+  height: 70px;
+  box-shadow: 0px 0px 5px #fff;
+
+}
+.background .box4{
+  z-index: -1;
+  position: absolute;
+  left: 70%;
+  top:30%;
+  border-radius: 10px;
+  background-color:#7fcfd6;
+  animation-name:rotation4;
+  animation-duration:0.5s;
+  animation-iteration-count: infinite;
+  width:150px;
+  height: 150px;
+  box-shadow: 0px 0px 5px #fff;
+
+}
+.background .box5{
+  z-index: -1;
+  position: absolute;
+  left: 90%;
+  top:30%;
+  border-radius: 10px;
+  background-color:#7fcfd6;
+  animation-name:rotation5;
+  animation-duration:2s;
+  animation-iteration-count: infinite;
+  width:300px;
+  height: 300px;
+  box-shadow: 0px 0px 5px #fff;
+
+}
+.background .box6{
+  z-index: -1;
+  position: absolute;
+  left: 60%;
+  top:80%;
+  border-radius: 10px;
+  background-color:#7fcfd6;
+  animation-name:rotation6;
+  animation-duration:1.6s;
+  animation-iteration-count: infinite;
+  width:50px;
+  height: 50px;
+  box-shadow: 0px 0px 5px #fff;
+ 
+}
+.background .box7{
+  z-index: -1;
+  position: absolute;
+  left: 80%;
+  top:70%;
+  border-radius: 10px;
+  background-color:#7fcfd6;
+  animation-name:rotation7;
+  animation-duration:0.4s;
+  animation-iteration-count: infinite;
+  width:50px;
+  height: 50px;
+  box-shadow: 0px 0px 5px #fff;
+ 
+}
+@keyframes pageload {
+    from{
+      transform: rotate3d(-10,10,5,110deg);
+  
+    }
+    to{
+      transform:rotate3d(0,0,0,0);
+    }
+  }
+
+  @keyframes rotation1 {
+    from{
+      transform: rotate(20deg);
+
+    }
+    to {
+      transform: rotate(200deg);
+    }
+  }
+  @keyframes rotation2 {
+    0%{
+      transform: rotate(10deg);
+
+    }
+    100% {
+      transform: rotate(190deg);
+    }
+   
+  }
+  @keyframes rotation3 {
+    from{
+      transform: rotate(-50deg);
+
+    }
+    to {
+      transform: rotate(-230deg);
+    }
+  }
+  @keyframes rotation4 {
+    from{
+      transform: rotate(60deg);
+
+    }
+    to {
+      transform: rotate(240deg);
+    }
+  }
+  @keyframes rotation5 {
+    from{
+      transform: rotate(80deg);
+
+    }
+    to {
+      transform: rotate(260deg);
+    }
+  }
+  @keyframes rotation6 {
+    from{
+      transform: rotate(-110deg);
+
+    }
+    to {
+      transform: rotate(-290deg);
+    }
+  }
+  @keyframes rotation7 {
+    from{
+      transform: rotate(50deg);
+
+    }
+    to {
+      transform: rotate(230deg);
+    }
+  }

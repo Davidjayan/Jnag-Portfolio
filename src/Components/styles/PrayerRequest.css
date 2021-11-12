@@ -1,0 +1,57 @@
+.pray-req-body{
+    width: 100%;
+display: grid;
+justify-content: center;
+align-items: center;
+}
+.pray-req-body :nth-child(6){
+   
+    margin: 5px;
+    border-radius: 5px;
+    border:1px solid #003333;
+    height:160px;
+    width: 300px;
+    
+}
+.btn{
+    background-color: #7fcfd6;
+   border:none;
+    padding:10px;
+    width: 40%;
+    box-shadow: 0px 4px 5px gray;
+    border-radius: 50px;
+    color:#fff;
+}
+.btn:hover{
+    transform: scale(1.03);
+    transition: transform 0.2s;
+}
+
+label{
+    color:#c50d2f;
+}
+
+.pray-req-body :nth-child(2){
+    margin: 5px;
+    border:1px solid #003333;
+    border-radius: 5px;
+    padding: 10px;
+    width: 30%;
+}
+.pray-req-body :nth-child(4){
+    margin: 5px;
+    border:1px solid #003333;
+    border-radius: 5px;
+    padding: 10px;
+    width: 30%;
+}
+.pray-req-body input:focus {
+    outline: none;
+    box-shadow:0px 0px 5px #003333;
+}
+
+
+.pray-req-body textarea:focus{
+    outline: none;
+    box-shadow:0px 0px 5px #003333;
+}

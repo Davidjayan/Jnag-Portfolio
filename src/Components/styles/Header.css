@@ -1,0 +1,21 @@
+.header-body{
+    background-color:auto;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navmenu{
+    justify-self: flex-end;
+    
+}
+.header-body img{
+    position: relative;
+    top:40px;
+    width: 150px;
+    height: 150px;
+    margin-left: 60px;
+    transform: scale(1.7);
+  }

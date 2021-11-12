@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+.contact-body{
+    margin-top: 30px;
+    background-color: #323232;
+    font-family: 'Montserrat',sans-serif;
+    color:white;
+    font-size: 20px;
+    padding:20px;
+}
+.foot1 i{
+    padding-left: 10px;
+}
+.foot1 a:hover{
+    color:#c50d2f;
+    transition:color 0.5s;
+} 
+
+.foot2 a{
+    text-decoration: none;
+    color:white;
+}
+.foot2 a:hover{
+    border-bottom: 2px solid #c50d2f;
+    border-radius: 2px;
+}

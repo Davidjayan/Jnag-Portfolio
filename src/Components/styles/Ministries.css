@@ -1,0 +1,21 @@
+.children-minis{
+    display: flex;
+    margin: 60px;
+}
+.youth-mins{
+    display: flex;
+    margin: 60px;
+}
+.women-fellowship{
+    display: flex;
+    margin: 60px;
+}
+.carousel .control-arrow{
+    display: none;
+}
+
+.slide-bt:hover{
+    transform: scale(1.1);
+    transition: 0.2s transform;
+    cursor:pointer
+}

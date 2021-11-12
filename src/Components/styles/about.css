@@ -1,0 +1,10 @@
+.about-body{
+    display: flex;
+    justify-content: center;
+}
+.about-body .content{
+    width:40%;
+    text-align: justify;
+    text-indent: 50px;
+    
+}

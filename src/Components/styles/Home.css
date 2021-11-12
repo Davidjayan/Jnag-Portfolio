@@ -1,0 +1,172 @@
+.home-body{
+    width:100%;
+    display: grid;
+}
+.cover-photo-container{
+    position: relative;
+    display: grid;
+}
+.coverimage{
+
+    width:100%;
+    background-color: black;
+    opacity: 0.8 ;
+    filter: brightness(0.5);
+}
+.aboutbutton{
+    z-index: 2;
+    position: absolute;
+    padding:10px 30px;
+    color:#003333;
+    background-color: white;
+    align-self: center;
+    justify-self: center;
+    font-size: 16px;
+    border:none;
+    border-radius: 10px;
+}
+.aboutbutton:hover {
+    color:white;
+    background-color: #003333;
+    transition: 0.3s background-color,0.3s color;
+    
+}
+.h-link{
+  color:#003333;
+}
+.aboutbutton:hover .h-link{
+  color:white;
+ 
+}
+
+
+
+.frame{
+  position: relative;
+  top:70px;
+  
+  width: 650px;
+  background-color: #003333;
+  display: grid;
+  justify-self: center;
+  border-radius: 20px;
+  height: 200px;
+  z-index: 1;
+  
+  
+}
+.center{
+  width: 60%;
+  height: 100%;
+  justify-self:center ;
+  z-index: 2;
+  background-color: white;
+  position: absolute;
+}
+.centerwidth{
+  width: 97%;
+  height: 90%;
+  border-radius: 10px;
+  align-self: center;
+  justify-self:center ;
+  z-index: 2;
+  background-color: white;
+  position: relative;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+
+.verse-middle{
+  justify-self: center;
+  align-self: center;
+  font-family: 'Ruslan Display', cursive;
+  opacity: 0.6;
+  font-size: 30px;
+  padding-top: 30px;
+  padding-left: auto;
+  padding-right: auto;
+  text-align: center;
+  color:#003333;
+  
+  
+}
+.ic{
+  position: absolute;
+  font-size: 48px;
+  top:-30px;  
+  left:133px;
+}
+.ic2{
+  position: absolute;
+  font-size: 48px;
+  bottom:-20px;
+  right:133px;
+  
+}
+.spanclass1{
+  color: #c50d2f;
+  font-family: 'Arizonia',cursive;
+  font-weight: 900;
+  font-size: 36px;
+  text-decoration: underline;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+.services-and-prayers{
+  margin-top: 170px;
+  width:100%;
+  display: flex;
+  font-family: 'Comfortaa',cursive;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  
+}
+.live{
+  font-family: 'Monsieur La Doulaise',cursive;
+  font-size: 50px;
+  border-bottom:3px solid #c50d2f ;
+}
+
+.services-and-prayers .col{
+  align-self: center;
+  font-size: 30px;
+}
+.services-and-prayers .col1{
+  box-shadow: 5px 5px 15px #003333;
+  display: flex;
+  align-self: flex-start;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding:30px;
+}
+.services-and-prayers .col2{
+  box-shadow: 5px 5px 15px #003333;
+  display: flex;
+  align-self: flex-start;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding:30px;
+}
+
+.col p a{
+  text-decoration: none;
+  color:black;
+}
+.col p a:hover{
+  text-decoration: underline;
+  color:#c50d2f;
+}
+
